@@ -2,7 +2,7 @@
     <string name="app_name">SmartHomeApp</string>
     <string name="smart_home_menu">Smart Home Menu</string>
     <string name="light">Light</string>
-    <string name="temperature_and_humidity">Temperature and Humidity</string>
+    <string name="temperature_and_humidity">Ambiance</string>
     <string name="illumination">Illumination</string>
     <string name="ambiance">Ambiance</string>
     <string name="chat_bot_screen">Chat Bot Screen</string>
@@ -11,4 +11,5 @@
     <string name="password">Password</string>
     <string name="welcome_screen">Welcome Screen</string>
     <string name="back_button">Back</string>
+    <string name="access">Access</string>
 </resources>

@@ -20,8 +20,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusDirection
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
+import com.example.smarthomeapp.R
 
 @Composable
 fun PasswordScreen(
@@ -50,7 +52,9 @@ fun PasswordScreen(
     val focusManager = LocalFocusManager.current
 
     Column(
-        modifier = Modifier.padding(top = 20.dp, bottom = 12.dp).fillMaxWidth(),
+        modifier = Modifier
+            .padding(top = 20.dp, bottom = 12.dp)
+            .fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(20.dp, alignment = Alignment.CenterVertically)
     ) {
@@ -121,7 +125,7 @@ fun PasswordScreen(
                 onPasswordButtonClicked()
             }
         }) {
-            Text(text = "Next")
+            Text(text = stringResource(id = R.string.access))
         }
     }
 }
