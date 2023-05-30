@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184626441053",
+    "project_id": "password-dec85",
+    "storage_bucket": "password-dec85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184626441053:android:849af68718f7e9b51ed6b4",
+        "android_client_info": {
+          "package_name": "com.example.signscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvSbidwERBT5O2E8Hq_TxtuAVBwjgpzJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
