@@ -1,0 +1,55 @@
+05-21 11:57:01.944 20118 20149 I TestRunner: started: smartHomeNavHost_verifyBackNavigationNotShownOnMenuScreen(com.example.smarthomeapp.SmartHomeScreenNavigationTest)
+05-21 11:57:01.952   513   785 W InputManager-JNI: Input channel object '805c13d com.example.smarthomeapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+05-21 11:57:01.968 20118 20149 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@40a663a]
+05-21 11:57:01.991 20118 20149 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-21 11:57:02.051   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c9d000 0x3f7486000]
+05-21 11:57:02.066 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@77cb119 in: PRE_ON_CREATE
+05-21 11:57:02.066   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f47e9000]
+05-21 11:57:02.071 20118 20118 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-21 11:57:02.081   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f47e9000 0x3f4fd2000]
+05-21 11:57:02.094 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@77cb119 in: CREATED
+05-21 11:57:02.099 20118 20118 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@77cb119
+05-21 11:57:02.128  1707  1707 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-21 11:57:02.128  1707  1707 E HwDetectorWithState: a: 3
+05-21 11:57:02.133 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@77cb119 in: STARTED
+05-21 11:57:02.143 20118 20118 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@77cb119
+05-21 11:57:02.144 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@77cb119 in: RESUMED
+05-21 11:57:02.144 20118 20118 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@77cb119
+05-21 11:57:02.202   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f9c62000 0x3fa44b000]
+05-21 11:57:02.214   735   791 D EGL_emulation: app_time_stats: avg=2129.04ms min=2129.04ms max=2129.04ms count=1
+05-21 11:57:02.230   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3fa44b000 0x3fac34000]
+05-21 11:57:02.232   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3fac34000 0x3fb41d000]
+05-21 11:57:02.313   513   541 I ActivityTaskManager: Displayed com.example.smarthomeapp/androidx.activity.ComponentActivity: +296ms
+05-21 11:57:02.333 16200 16200 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+05-21 11:57:02.334 16200 16200 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+05-21 11:57:02.339 16200 16200 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+05-21 11:57:02.415 15927 15927 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-21 11:57:02.415 15927 15927 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-21 11:57:02.519   389   389 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-21 11:57:02.520   389   389 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-21 11:57:02.611   735   791 D EGL_emulation: app_time_stats: avg=55.20ms min=2.55ms max=429.70ms count=17
+05-21 11:57:02.646   513  1958 W InputManager-JNI: Input channel object 'c183c51 Splash Screen com.example.smarthomeapp (client)' was disposed without first being removed with the input manager!
+05-21 11:57:02.808 15650 15650 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+05-21 11:57:03.030 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@77cb119 in: PAUSED
+05-21 11:57:03.032 20118 20118 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@77cb119
+05-21 11:57:03.059 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9 in: PRE_ON_CREATE
+05-21 11:57:03.062 20118 20118 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.smarthomeapp/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.smarthomeapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9
+05-21 11:57:03.081 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9 in: CREATED
+05-21 11:57:03.083 20118 20118 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.smarthomeapp/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.smarthomeapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9
+05-21 11:57:03.089 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9 in: STARTED
+05-21 11:57:03.089 20118 20118 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.smarthomeapp/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.smarthomeapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9
+05-21 11:57:03.093 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9 in: RESUMED
+05-21 11:57:03.093 20118 20118 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.smarthomeapp/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.smarthomeapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9
+05-21 11:57:03.132   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c9d000 0x3f7486000]
+05-21 11:57:03.148   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f47e9000]
+05-21 11:57:03.151   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f47e9000 0x3f4fd2000]
+05-21 11:57:03.167   513   541 I ActivityTaskManager: Displayed com.example.smarthomeapp/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +148ms
+05-21 11:57:03.181 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@77cb119 in: STOPPED
+05-21 11:57:03.184 20118 20118 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@77cb119
+05-21 11:57:03.212 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@77cb119 in: DESTROYED
+05-21 11:57:03.214 20118 20118 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-21 11:57:03.223   513  3204 W InputManager-JNI: Input channel object 'b7d72fd com.example.smarthomeapp/androidx.activity.ComponentActivity (client)' was disposed without first being removed with the input manager!
+05-21 11:57:03.233   332   332 D goldfish-address-space: claimShared: Ask to claim region [0x3f4fd2000 0x3f54e2000]
+05-21 11:57:03.266 20118 20149 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@40a663a]
+05-21 11:57:03.281 20118 20118 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@25f79a9 in: PAUSED
+05-21 11:57:03.295 20118 20149 I TestRunner: finished: smartHomeNavHost_verifyBackNavigationNotShownOnMenuScreen(com.example.smarthomeapp.SmartHomeScreenNavigationTest)

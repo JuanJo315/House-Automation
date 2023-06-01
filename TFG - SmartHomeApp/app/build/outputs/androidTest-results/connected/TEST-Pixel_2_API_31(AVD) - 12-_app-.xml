@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.smarthomeapp.SmartHomeScreenNavigationTest" tests="10" failures="0" errors="0" skipped="0" time="29.931" timestamp="2023-05-21T11:57:29" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_2_API_31(AVD) - 12" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="smartHomeNavHost_verifyStartDestination" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="5.223" />
+  <testcase name="smartHomeNavHost_clickAmbianceOnMenuScreen_navigatesToAmbianceScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="2.988" />
+  <testcase name="smartHomeNavHost_verifyBackNavigationNotShownOnMenuScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="1.356" />
+  <testcase name="smartHomeNavHost_clickBackOnAmbianceScreen_navigatesToMenuScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="2.357" />
+  <testcase name="smartHomeNavHost_clickAccessButton_navigatesToMenuScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="1.822" />
+  <testcase name="smartHomeNavHost_clickLightsOnMenuScreen_navigatesToLightsScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="2.254" />
+  <testcase name="smartHomeNavHost_verifyBackNavigationNotShownOnPasswordScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="1.176" />
+  <testcase name="smartHomeNavHost_clickActivityOnMenuScreen_navigatesToActivityScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="1.869" />
+  <testcase name="smartHomeNavHost_clickBackOnActivityScreen_navigatesToMenuScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="2.62" />
+  <testcase name="smartHomeNavHost_clickBackOnLightsScreen_navigatesToMenuScreen" classname="com.example.smarthomeapp.SmartHomeScreenNavigationTest" time="2.154" />
+</testsuite>
