@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.smarthomeapp.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-20T22:42:41" hostname="DESKTOP-AK4N3VP" time="0.005">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.example.smarthomeapp.ExampleUnitTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
